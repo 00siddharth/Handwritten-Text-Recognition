@@ -12,16 +12,16 @@ This project demonstrates how to recognize handwritten characters (both digits a
 ### Components:
 
 ### HANDWRITTEN_TEXT_RECOGNITION.ipynb:
--Trains a Convolutional Neural Network (Keras) using a dataset of handwritten characters.
--Evaluates the model’s performance.
+-Trains a Convolutional Neural Network (Keras) using a dataset of handwritten characters. <br />
+-Evaluates the model’s performance. <br />
 -Saves the best model for use in predictions.
 
 ### Board.py:
-Creates a simple GUI using Pygame where users can draw characters.
-Captures the drawn image, processes it, and sends it to the pre-trained model for prediction.
-Displays the predicted character on the screen.
+-Creates a simple GUI using Pygame where users can draw characters. <br />
+-Captures the drawn image, processes it, and sends it to the pre-trained model for prediction. <br />
+-Displays the predicted character on the screen.
 
 
 ### Additional Notes:
--Make sure to change "bestmodel.keras" in both the notebook and Board.py to point to the correct file path if you're saving/loading the model in a specific directory
+-Make sure to change "bestmodel.keras" in both the notebook and Board.py to point to the correct file path if you're saving/loading the model in a specific directory <br />
 -If you need to save the model in a specific folder, refer to the section of the Board.py script where the model is loaded and saved.
